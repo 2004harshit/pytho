@@ -1,0 +1,10 @@
+import matplotlib.pyplot as plt
+# plt.plot([1,2,3],[1,8,27],)
+# plt.plot([1,2,3],[1,8,27],'ro')
+plt.plot([1,2,3],[1,8,27],'r--')
+# plt.plot([1,2,3],[1,8,27],'bs')
+# plt.plot([1,2,3],[1,8,27],'g^')
+plt.xlabel('X-axis')
+plt.ylabel('Y-axis')
+plt.title('y=x3 Plot')
+plt.show()
